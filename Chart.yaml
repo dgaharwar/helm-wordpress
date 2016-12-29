@@ -1,0 +1,16 @@
+name: wp-helm
+description: An example of Helm and Wordpress
+version: 0.1.0
+keywords:
+  - http
+  - wordpress
+  - www
+  - web
+  - cms
+home: "https://github.com/nordri/wordpress-helm"
+sources:
+  - "http://www.muspells.net"
+maintainers:
+  - name: nordri
+    email: nordri@gmail.com
+engine: gotpl
