@@ -9,7 +9,7 @@ metadata:
     heritage: "{{ .Release.Service }}"
 spec:
   capacity:
-    storage: 20Gi
+    storage: {{.Values.pv_size}}
   accessModes:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain

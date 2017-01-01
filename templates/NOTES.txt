@@ -1,0 +1,4 @@
+Los datos de acceso son los siguientes:
+
+Host: {{ .Values.hostname }}
+

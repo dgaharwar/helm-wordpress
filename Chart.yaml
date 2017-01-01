@@ -1,4 +1,4 @@
-name: wp-helm
+name: helm-wordpress
 description: An example of Helm and Wordpress
 version: 0.1.0
 keywords:
@@ -7,7 +7,7 @@ keywords:
   - www
   - web
   - cms
-home: "https://github.com/nordri/wordpress-helm"
+home: "https://www.wordpress.com"
 sources:
   - "http://www.muspells.net"
 maintainers:

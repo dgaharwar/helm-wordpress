@@ -3,6 +3,8 @@ db_server: 192.168.1.43
 root_db_password: root01
 nfs_path: srvnfs
 nfs_server: 192.168.1.43
+pv_size: 20Gi
+pvc_size: 2Gi
 hostname: wordpress
 resources:
   requests:
