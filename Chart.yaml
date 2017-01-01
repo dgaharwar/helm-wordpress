@@ -9,8 +9,8 @@ keywords:
   - cms
 home: "https://www.wordpress.com"
 sources:
-  - "http://www.muspells.net"
+  - "https://github.com/nordri/helm-wordpress"
 maintainers:
-  - name: nordri
+  - name: Fede Diaz
     email: nordri@gmail.com
 engine: gotpl
