@@ -77,4 +77,4 @@ $ helm install --name my-release -f values.yaml helm-wordpress
 
 ## Persistence
 
-This Chart uses NFS server for persistence. The exported volume is mounted under `/usr/share/www/html` where Apache HTTPD server puts the web pages. You should use an export for each WP installation.
+This Chart uses NFS server for persistence. The exported volume is mounted under `/var/www/html` where Apache HTTPD server puts the web pages. You should use an export for each WP installation.
