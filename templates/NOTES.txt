@@ -1,4 +1,8 @@
-Los datos de acceso son los siguientes:
+Thanks for using WordPress
 
-Host: {{ .Values.hostname }}
+You can access your blog by clicking the following URL. 
+
+Host: http://{{ .Values.hostname }}
+
+You should update your DNS records to point to the ingress controller node.
 
