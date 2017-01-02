@@ -6,9 +6,11 @@
 
 This chart bootstraps a [WordPress](https://wordpress.org/) deployment on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
 
-## Description
+## Requirements
 
-This chart has been designed and tested under a bare metal installation of Kubernetes. As far a I know there is a open issue about the way a service is exposed to the world in bare metal clusters. So this chart uses NodePort in Services and Ingress Controller for publishing services. More info [here](https://github.com/kubernetes/ingress/issues/17) and [here](https://medium.com/@rothgar/exposing-services-using-ingress-with-on-prem-kubernetes-clusters-f413d87b6d34#.c67kqh60k)
+This chart has been designed and tested under a bare metal installation of Kubernetes. As far as I know there is an open issue about the way a service is exposed to the world in bare metal clusters. So this chart uses NodePort in Services and Ingress Controller for publishing services. More info [here](https://github.com/kubernetes/ingress/issues/17) and [here](https://medium.com/@rothgar/exposing-services-using-ingress-with-on-prem-kubernetes-clusters-f413d87b6d34#.c67kqh60k). 
+
+After the deployment you should be able to access the service through the `hostname` var setted on `values.yaml`. Update the DNS records before in order to point the Node IP where the ingress controller is running on.
 
 ## Prerequisites
 
